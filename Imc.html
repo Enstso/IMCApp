@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>IMC</title>
+        <meta name="author" content="Enstso Janvier">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styleimc.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="haut-de-page">
+            <header>
+                <h1>Calcul ton IMC</h1>
+                <p id="text-haut-de-page">Prenez soin de vous</p>
+            </header>
+        </div>
+        <div id="contenue">
+            <h2> Qu'est ce que l'indice de masse corporelle ?</h2>
+            <div id="contenue-solid">
+                <p>L’indice de masse corporelle ou IMC (en anglais, body mass index ou BMI) est une grandeur qui permet d'estimer la corpulence d’une personne.</p>
+                <p>Il se calcule en fonction de la taille et de la masse corporelle.</p>
+                <div id="display-contain">
+                    <img id="photo" src="Image/pexels-photo-1092730-1080x675.jpg">
+                    <form>
+                        
+                        <div id="form-style">
+                            <div class="champs">
+                                <label for="taille">Taille :</label>
+                                <input type="text" name="taille" maxlength="3" placeholder="Votre taille en cm" id="taille" size="33">
+                            </div>
+                            <div class="champs">
+                                <label for="poids">Poids :</label>
+                                <input type="text" name="poids" maxlength="3" placeholder="Votre poids en kg" id="poids" size="33">
+                            </div>
+                        </div>
+                        <button id="button">Calculer</button> </br>
+                        <span id="imc"></span>
+                        <span id="txt-imc"></span>
+                    </form>  
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3>Contact</h3>
+                <a href="https://github.com/Enstso">Git hub</a>
+                <a href="https://www.linkedin.com/in/enstso-janvier-1a274724a/">Linkedin</a>
+                <a href="mailto:enstso@outlook.fr">Mail</a>
+        </footer>
+        <script src="Imc.js"></script>
+    </body>
+</html>
